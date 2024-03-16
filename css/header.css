@@ -1,0 +1,135 @@
+/*>=1200 px
+992-1199 px
+768-991 px
+576-768 px
+460-576 px
+414-460 px
+375-413 px
+320-374 px
+*/
+@media screen  and (max-width: 1199px){
+    
+    header form div {
+        width: 150px;
+    }
+}
+@media screen  and (max-width: 991px){
+    
+    header > .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header form div {
+        width: 260px;
+    }
+    header > .container form, header > .container .cart {
+        margin-top: 15px;
+    }
+}
+@media screen  and (max-width: 768px){
+    header .menu {
+        margin: 15px 0;
+    }
+    header .container .menu a{
+        margin: 0 10px;
+    }
+}
+@media screen  and (max-width: 768px){
+    footer .right p{
+        font-size: 18px; 
+        
+    }
+    footer div .left a{
+        font-size: 18px;
+        display: none;
+    }
+    footer div .left img{
+        margin-left: 20px;
+        width: 50%;
+        height: 50%;
+    }
+    footer div .left figcaption{
+        margin-left: 20px;
+        font-size: 20px;
+        width: 90px;
+    }
+}
+
+@media screen and  (max-width: 576px){
+    footer .right p{
+        font-size: 20px; 
+        text-align: left;
+    }
+    footer div .left a{
+        font-size: 20px;
+        display: none;
+    }
+    footer div .left img{
+        width: 50%;
+        height: 50%;
+    }
+    footer div .left figcaption{
+        font-size: 20px;
+        width: 100px;
+    }
+    footer .right > div {
+        margin-left: 0px;
+    }
+}
+@media screen and  (max-width: 460px){
+    footer .right p{
+        font-size: 20px; 
+        text-align: left;
+    }
+    footer div .left a{
+        font-size: 20px;
+        display: none;
+    }
+    footer div .left img{
+        width: 50%;
+        height: 50%;
+    }
+    footer div .left figcaption{
+        font-size: 20px;
+        width: 100px;
+    }
+    footer .right > div {
+        margin-left: 0px;
+    }
+    
+}
+@media screen and  (max-width: 320px){
+    footer .right p{
+        font-size: 10px; 
+        text-align: left;
+    }
+    footer div .left a{
+        font-size: 20px;
+        display: none;
+    }
+    footer div .left img{
+        width: 50%;
+        height: 50%;
+    }
+    footer div .left figcaption{
+        font-size: 20px;
+        width: 100px;
+    }
+    footer .right > div {
+        margin-left: 0px;
+    }
+    footer .right .whatsup{
+        width: 30PX;
+        height: 30PX;
+    }
+    footer .right .telegram{
+        width: 30PX;
+        height: 30PX;
+    }
+    footer .right .vk{
+        width: 30PX;
+        height: 30PX;
+    }
+}
+    
+    

@@ -1,0 +1,84 @@
+.block1 {
+    justify-content: left;
+}
+.block1 .menu{
+    width: 200px;
+}
+
+.block1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 43px;
+    margin-bottom: 28px;
+}
+
+.block1 .menu a:hover {
+    color: aquamarine;
+    font-weight: bold;
+}
+.block1 .items .boxes {
+    flex-wrap: wrap;
+}
+.block1 .items .boxes .box{
+    margin-bottom: 28px;
+}
+.block1 .items {
+    padding-left: 25px;
+}
+
+.block1 figure figcaption {
+    padding-left: 23px;
+    color: black;
+}
+.block1 figure figcaption p{
+    font-size: 20px;
+}
+.block1 figure figcaption p span{
+    font-size: 23px;
+    font-weight: 600;
+}
+.block1 figure title{
+    color: black;
+    font-size: 20px;
+    padding-left: 23px;
+    margin-top: 1opx;
+}
+.box button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: rgb(62, 150, 120);
+    color: #fff;
+    border: none;
+}
+.adv div p {
+    font-size: 30px;
+    color: black;
+    font: small-caps bold 30px sans-serif;
+}
+.adv h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 70px;
+    font: Impact, fantasy;
+}
+
+@media screen and  (max-width: 576px){
+
+    main .box {
+        width: 300px;
+    }
+}
+
+@media screen and  (max-width: 460px){
+    
+    main .box {
+        width: 200px;
+    }
+    .box img{
+        width: 90%;
+        height: 90%;
+    }
+}

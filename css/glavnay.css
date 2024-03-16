@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header > .container{
+    padding: 40px 20px;
+}   
+
+header .container .menu a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}   
+header .container .menu a:hover,
+header .container .menu a:active
+{
+ color: rgb(93, 226, 175);
+ font-weight: 600;
+ padding-bottom: 7px;
+ border-bottom: 3px solid rgb(93, 226, 175);
+}
+
+header form div {
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+header form div input[type='text']
+{
+    border: none;
+    margin-right: 10px;
+}
+header form div input[type='submit']{
+    background: url(/image/image12.png) no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+header form div input[type='submit']:hover{
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(126, 161, 152);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+footer .left figure figcaption {
+    color: aliceblue;
+    font-size: 28px;
+    margin-top: 25px;
+    width: 138px;
+}
+footer .left {
+    align-items: flex-start;
+}
+footer .left nav{
+    margin-left: 100px;
+}
+footer .left nav a{
+    display: block;
+    font-size: 35px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+footer .left nav a:hover, footer .left nav a.active {
+    color: black;
+}
+footer .right > div {
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+footer .right .box {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 18px 18px 0;
+}
+footer .right .whatsup {
+    background: url(/image/154858\ 1.png) no-repeat;
+    background-size: cover;
+}
+footer .right .telegram {
+    background: url(/image/87413\ 1.png) no-repeat;
+    background-size: cover;
+}
+footer .right .vk {
+    background: url(/image/image\ 10.png) no-repeat;
+    background-size: cover;
+}
+footer .copyrights {
+    color: black;
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: center;
+}
